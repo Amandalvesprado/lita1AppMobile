@@ -60,10 +60,10 @@ public class Exercicio03 extends AppCompatActivity {
                     !checkBlue.isChecked() && !checkIndigo.isChecked() &&
                     !checkViolet.isChecked()) {
 
-                Toast.makeText(this, "Selecione pelo menos uma cor!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Selecione no minimo uma cor!", Toast.LENGTH_SHORT).show();
             }
             else {
-                Toast.makeText(this, "Dados enviados com sucesso!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Dados recebidos com sucesso, muito obrigada!", Toast.LENGTH_SHORT).show();
             }
 
         });
