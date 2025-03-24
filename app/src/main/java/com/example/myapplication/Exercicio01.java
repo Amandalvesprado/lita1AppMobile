@@ -29,17 +29,17 @@ public class Exercicio01 extends AppCompatActivity {
             //Obtendo o valor do EditText
             String input = editTextNumber.getText().toString();
 
-            //Verificando se o valor é vazio
+            //Verificando se existe valor
             if (input.isEmpty()) {
-                Toast.makeText(getApplicationContext(), "Digite sua idade!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Qual a sua IDADE?", Toast.LENGTH_SHORT).show();
             }
 
-            //Verificando se o valor é maior ou menor de idade
+            //Verificando se o usuario é maior ou menor de idade
             if (Integer.parseInt(input) >= 18){
-                Toast.makeText(getApplicationContext(), "Você é maior de idade!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Você é maior de idade, voce tem mais que 18 anos!", Toast.LENGTH_SHORT).show();
             }
             else{
-                Toast.makeText(getApplicationContext(), "Você é menor de idade!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Você é menor de idade, voce tem menos que 18 anos!", Toast.LENGTH_SHORT).show();
             }
         });
 
