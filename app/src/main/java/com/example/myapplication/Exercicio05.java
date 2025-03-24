@@ -33,13 +33,13 @@ public class Exercicio05 extends AppCompatActivity {
                 StringBuilder preferencias = new StringBuilder();
 
                 if (checkNotificacoes.isChecked()) {
-                    preferencias.append("Receber notificações\n");
+                    preferencias.append("Receber Notificações\n");
                 }
                 if (checkModoEscuro.isChecked()) {
-                    preferencias.append("Modo escuro\n");
+                    preferencias.append("Modo Escuro\n");
                 }
                 if (checkLembrarLogin.isChecked()) {
-                    preferencias.append("Lembrar login\n");
+                    preferencias.append("Lembrar Login\n");
                 }
 
                 String mensagem = preferencias.length() > 0 ? preferencias.toString() : "Nenhuma preferência foi escolhida";
